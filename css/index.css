@@ -1,0 +1,93 @@
+.pardiv {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 4px #ffffff;
+    height: 97.6vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #aaaaaa;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+  }
+  .infield {
+    text-align: center;
+    padding: 0.3em;
+    background-color: #c9c9c9;
+    border: 1px solid;
+  }
+  .infield:hover {
+    background-color: #ffffff;
+  }
+  
+  .infield2 {
+    padding: 0.5em;
+    background-color: #c9c9c9;
+    box-shadow: 0px 0px 10px 4px #a4a4a4;
+    border: 3px solid;
+  }
+  .infield2:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 15px 5px #ffffff;
+    /* font-size: 17px; */
+  }
+  .calculation {
+    display: flex;
+    gap: 3em;
+    padding: 0.5em;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .cal {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 17px;
+    background-color: #c9c9c9;
+    box-shadow: 0px 0px 3px 2px #ffffff;
+    border: 1px solid;
+  }
+  .cal:hover {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 5px #9e9e9e;
+  }
+  .maindiv {
+    position: relative;
+    display: block;
+  }
+  /* ----------------------------------------------------------------------*/
+  .sec2 {
+    display: none;
+    position: absolute;
+    width: 25%;
+  }
+  .caldiv {
+    justify-content: flex-end;
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(172, 172, 172);
+    opacity: 0.9;
+    border: 4px solid #000;
+    border-radius: 0px;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    box-shadow: 0px 0px 5px 5px #9e9e9e;
+  }
+  .reset {
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+  
+    /* box-shadow: 0px 0px 5px 5px #ffffff; */
+    font-size: 22px;
+  }
+  .reset:hover {
+    box-shadow: 0px 0px 5px 5px #ffffff;
+  }
+  
